@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { HomePage } from '@/components/workforce-site';
+export const Route = createFileRoute('/')({head:()=>({meta:[{title:'Yaabesh Grace | Workforce & Services in India and UAE'},{name:'description',content:'Manpower, security, housekeeping and hospitality services. Connect with Yaabesh Grace for your business or next career opportunity.'},{property:'og:title',content:'Yaabesh Grace | People. Progress. Global Success.'},{property:'og:description',content:'Your partner in workforce and services across India and UAE.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:HomePage});
